@@ -37,9 +37,9 @@ Developed and implemented an incremental data load pipeline for an order trackin
 
 <!-- Technologies Used -->
 ## Technologies Used
- - Databricks: For data processing and orchestration.
- - Delta Lake: For storage and incremental data updates.
- - PySpark: For ETL operations.
+ - #### Databricks: For data processing and orchestration.
+ - #### Delta Lake: For storage and incremental data updates.
+ - #### PySpark: For ETL operations.
 
 <!-- Datasets and Source Code -->
 ## Datasets and Source Code

@@ -3,7 +3,7 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Overview] (#Overview)
+* [Overview](#Overview)
 * [Architecture diagram](#architecture-diagram)
 * [Features](#Features)
 * [Technologies Used](#Technologies-Used)

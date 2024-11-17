@@ -21,7 +21,7 @@ Developed and implemented an incremental data load pipeline for an order trackin
 
 <!-- ARCHITECTURE DIAGRAM -->
 ## Architecture diagram
-![Architecture](./images/architecture_diagram.png)
+![Architecture](./Images/architecture_diagram.png)
 
 ### Data Flow:
  - Source Directory(GCP Bucket) - (dbfs:/FileStore/stage-zone): Contains incoming raw order updates in CSV format.

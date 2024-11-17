@@ -20,4 +20,8 @@ Developed and implemented an incremental data load pipeline for an order trackin
 
 <!-- ARCHITECTURE DIAGRAM -->
 ## Architecture diagram
-
+Data Flow:
+ - Source Directory(GCP Bucket) - (dbfs:/FileStore/stage-zone): Contains incoming raw order updates in CSV format.
+ - Delta Table (gcp_workspace.default.stage_table): Stores processed data from the source directory.
+ - Target Table (gcp_workspace.default.target_table): Holds the final up-to-date order status records.
+ - Archive Directory(GCP Bucket) (dbfs:/FileStore/archive/): Stores processed files for backup.

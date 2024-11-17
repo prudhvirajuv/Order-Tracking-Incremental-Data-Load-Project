@@ -7,6 +7,7 @@
 * [Architecture diagram](#architecture-diagram)
 * [Features](#Features)
 * [Technologies Used](#Technologies-Used)
+* [Datasets and Source Code](#datasets-and-source-code)
 * [Usage](#Usage)
 * [Monitoring and Logging](#Monitoring-and-Logging)
 * [Troubleshooting](#Troubleshooting)
@@ -20,7 +21,7 @@ Developed and implemented an incremental data load pipeline for an order trackin
 
 <!-- ARCHITECTURE DIAGRAM -->
 ## Architecture diagram
-Data Flow:
+### Data Flow:
  - Source Directory(GCP Bucket) - (dbfs:/FileStore/stage-zone): Contains incoming raw order updates in CSV format.
  - Delta Table (gcp_workspace.default.stage_table): Stores processed data from the source directory.
  - Target Table (gcp_workspace.default.target_table): Holds the final up-to-date order status records.
@@ -37,6 +38,11 @@ Data Flow:
  - Databricks: For data processing and orchestration.
  - Delta Lake: For storage and incremental data updates.
  - PySpark: For ETL operations.
+
+<!-- Datasets and Source Code -->
+## Datasets and Source Code
+ - The dataset files are located in the /datasets/ folder.
+ - The code files are located in the /code/ folder.
 
 
 <!-- Usage -->
